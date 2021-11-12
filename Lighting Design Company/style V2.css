@@ -1,0 +1,171 @@
+/*rendue des élements HTLM5 en bloc */
+.fond_bleu {
+    background-color: lightyellow;
+    color: blue;
+}
+ header  {
+	background-color : #000000;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	text-align : center;
+	font-size : 30px;
+	color : white;
+
+}
+footer {
+	background-color : #000000;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	text-align : center;
+	font-size : 14px;
+	color : white;
+
+
+}
+
+aside {
+    float: right;
+    width: 20%;
+    background-color: light;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav {
+	background-color : #000000;
+	padding : 10px 20px 10px 20px;
+	font-size : 14px;
+    color : white;
+    padding-left: 30px;
+}
+
+section {
+    padding: 30px 20px 30px 20px;
+    background-color: rgba(199, 190,190,0.863);
+}
+	table
+td {
+    border: 1px solid ;
+    background-color:lightgrey;
+}
+
+tr {
+	text-align: center;
+    background-color: red;
+    text-align:center;
+}
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body {
+    background-color: lightyellow; /* Le fond de la page sera jaune claire*/
+    color: black/* Le texte de la page sera en bleu marine */
+}
+
+ }
+label {
+    padding-right: 30px;
+    font-size: 1rem;
+}
+img{
+    width:100px;
+    height:125px;
+}
+.loisir li{
+    display: inline;
+    font-size: 1rem;
+
+}
+.pas_de_bordure {
+    border:0px
+}
+.theme_couleur
+{float: left;
+ display: inline;
+margin-right: 20px;
+}
+
+#theme_bleu{
+        width: 20px;
+        height: 20px;
+        border:0.5px solid #FFFFFF;
+        background-color:#2874a6;
+        display: inline-block;
+        margin-left :10px;
+    }
+    #theme_orange{
+        width: 20px;
+       height: 20px;
+        border:0.5px solid #FFFFFF;
+        background-color:#cc5500;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #theme_bleu_violet
+    {
+        width: 20px;
+       height: 20px;
+        border:0.5px solid #FFFFFF;
+        background-color:#2a0de2;
+        display: inline-block;
+        margin-left: 10px;
+    }
+   .div{
+       border: white;
+       float: left;
+       margin-right: 5px;
+       margin-left: 10px;
+
+   }
+
+.barre_nav li{
+    display: inline-block;
+    font-size: 1rem;
+    padding-right: 20px !important;
+
+}
+.barre_nav li:hover{
+  cursor: pointer;
+text-decoration: underline;
+}
+
+#Mon_cv{
+    display: none  ;
+}
+#inscription
+{
+    display: none;
+}
+
+#Connexion
+{
+    display : none;
+}
+
+#site
+{
+    display : none;
+}
+.rouge
+{
+  color: red;
+  font-weight: lighter;
+}
+.vert
+{
+  color: green;
+  font-weight: lighter;
+
+}
+.img1{
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.img2{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.img3{
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
